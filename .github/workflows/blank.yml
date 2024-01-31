@@ -37,3 +37,6 @@ jobs:
 
       - name: Run a command
         run: echo `cat /etc/os-release`
+
+      - name: Get ENV VAR
+        run: echo `print env`
